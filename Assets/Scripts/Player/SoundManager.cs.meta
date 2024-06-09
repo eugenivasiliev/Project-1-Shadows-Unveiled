@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: bdac47158ab7b8341bcfc4864f98f8c6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - footstepsLightScript: {instanceID: 0}
+  - footstepsDarkScript: {instanceID: 0}
+  - jumpSoundScript: {instanceID: 0}
+  - fallWaterSoundScript: {instanceID: 0}
+  - dashDarkScript: {instanceID: 0}
+  - dashLightScript: {instanceID: 0}
+  - changeSoundScript: {instanceID: 0}
+  - breakWallSoundScript: {instanceID: 0}
+  - jumpClip: {fileID: 8300000, guid: 3596f9b43ffe2f241a88052ad364b996, type: 3}
+  - fallWaterClip: {fileID: 8300000, guid: 817730aece0d472448de9e3f8ab4181a, type: 3}
+  - dashDarkClip: {fileID: 8300000, guid: 8b50099489e911b4fb498fdd46c823e8, type: 3}
+  - dashLightClip: {fileID: 8300000, guid: 8b50099489e911b4fb498fdd46c823e8, type: 3}
+  - changeSoundClip: {fileID: 8300000, guid: fb3a99972c5693c46bd301f004cb491e, type: 3}
+  - breakWallSoundClip: {instanceID: 0}
+  - footstepLightSource: {instanceID: 0}
+  - footstepDarkSource: {instanceID: 0}
+  - jumpSource: {instanceID: 0}
+  - fallWaterSource: {instanceID: 0}
+  - dashDarkSource: {instanceID: 0}
+  - dashLightSource: {instanceID: 0}
+  - changeSoundSource: {instanceID: 0}
+  - breakWallSoundSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Main Menu.unity
+    guid: 051897e9a506d1a47b8b0daacfa33b3c
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Level Selector.unity
+    guid: 15c44f2b7704ee042973a4f4a09602b3
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Level - 1.unity
+    guid: 08151cac089771643af7410b5f1b4acc
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Level - 2.unity
+    guid: dd69d083931f1104e86dbb27229bb1fe
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Level - 3.unity
+    guid: daded07c83f69924e98ee72a9ba8b72d
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Level - 4.unity
+    guid: 96912bab6394cca47b76b75d2ec7ad7e
+  - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Credits Scene.unity
+    guid: 601e9f549c01f71488dc11c0e6622af4
+  m_configObjects: {}
