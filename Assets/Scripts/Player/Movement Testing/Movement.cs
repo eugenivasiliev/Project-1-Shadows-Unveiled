@@ -65,6 +65,8 @@ public class Movement : MonoBehaviour
 
 	[HideInInspector] public Rigidbody2D standingPlatform;
 
+    [SerializeField] private int score = 0;
+
 	#endregion
 
     private void Awake()
@@ -579,6 +581,7 @@ public class Movement : MonoBehaviour
 
     #endregion
 
+    public void Collect() { score++; Debug.Log(score); }
 
     #region TESTING
     private void OnDrawGizmosSelected()
