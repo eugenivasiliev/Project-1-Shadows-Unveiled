@@ -584,6 +584,7 @@ public class Movement : MonoBehaviour
     #endregion
 
     public void Collect(int _score) { score += _score; collectSound.Play(); }
+    public void CollectDashCrystal() { StartCoroutine(nameof(RefillDash), 1); }
 
     #region TESTING
     private void OnDrawGizmosSelected()
