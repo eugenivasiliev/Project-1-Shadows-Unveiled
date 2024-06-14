@@ -15,6 +15,8 @@ public class Movement : MonoBehaviour
 	public PlayerMovementData LightProfile;
 	public PlayerMovementData DarkProfile;
 
+    [SerializeField] private AudioSource collectSound;
+
 	#region Variables
     public Rigidbody2D RB { get; private set; }
     
@@ -581,7 +583,7 @@ public class Movement : MonoBehaviour
 
     #endregion
 
-    public void Collect() { score++; Debug.Log(score); }
+    public void Collect(int _score) { score += _score; collectSound.Play(); }
 
     #region TESTING
     private void OnDrawGizmosSelected()

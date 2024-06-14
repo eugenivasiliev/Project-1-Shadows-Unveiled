@@ -42,7 +42,6 @@ public class PlayerAnimations : MonoBehaviour
 
     private void Awake()
     {
-        source = GetComponent<AudioSource>();
         _animator = GetComponent<Animator>();
         _sr = GetComponent<SpriteRenderer>();
         _rb = GetComponent<Rigidbody2D>();

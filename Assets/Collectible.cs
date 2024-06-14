@@ -5,12 +5,11 @@ using UnityEngine.Events;
 
 public class Collectible : MonoBehaviour
 {
-    private AudioSource source;
-    [SerializeField] private UnityEvent collect;
+    [SerializeField] private int score;
+    [SerializeField] private UnityEvent<int> collect;
     // Start is called before the first frame update
     void Start()
     {
-        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,7 +20,6 @@ public class Collectible : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        source.Play();
-        collect.Invoke();
+        collect.Invoke(score);
     }
 }
