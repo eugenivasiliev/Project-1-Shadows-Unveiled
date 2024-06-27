@@ -16,11 +16,11 @@ public class InputManager : MonoBehaviour
     {
         if (!MainUIManager.PauseState)
         {
-            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.J)) jumped.Invoke();
-            if (Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.J)) jumping.Invoke();
-            if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.K)) dashed.Invoke();
+            if (Input.GetKeyDown(KeyCode.X)) jumped.Invoke();
+            if (Input.GetKeyUp(KeyCode.X)) jumping.Invoke();
+            if (Input.GetKeyDown(KeyCode.Z)) dashed.Invoke();
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-            if ((Input.GetKeyDown(KeyCode.C) || Input.GetKeyDown(KeyCode.L)) && (sceneIndex != 2 && sceneIndex != 3)) changeElement.Invoke();
+            if (Input.GetKeyDown(KeyCode.C) && (sceneIndex != 2 && sceneIndex != 3)) changeElement.Invoke();
             if (Input.GetKeyDown(KeyCode.Escape)) onEscape.Invoke();
         }
     }
