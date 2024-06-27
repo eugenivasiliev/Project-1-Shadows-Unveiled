@@ -7,6 +7,7 @@ using Vector3 = UnityEngine.Vector3;
 
 public class Movement : MonoBehaviour
 {
+	[SerializeField] private Checkpoint checkpoint; 
 
 	private PlayerMovementData _data;
 	
@@ -585,6 +586,11 @@ public class Movement : MonoBehaviour
 
     public void Collect(int _score) { score += _score; collectSound.Play(); }
     public void CollectDashCrystal() { StartCoroutine(nameof(RefillDash), 1); }
+
+	public void Respawn()
+    {
+		this.transform.position = checkpoint.GetRespawnPoint();
+    }
 
     #region TESTING
     private void OnDrawGizmosSelected()

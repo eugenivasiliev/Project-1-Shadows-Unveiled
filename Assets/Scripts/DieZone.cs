@@ -7,6 +7,6 @@ public class DieZone : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (other.GetComponent<Movement>()) other.GetComponent<Movement>().Respawn();
     }
 }
