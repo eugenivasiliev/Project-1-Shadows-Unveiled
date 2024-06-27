@@ -16,7 +16,7 @@ public class Checkpoint : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space)) currentCheckpoint = (currentCheckpoint + 1) % checkpoints.Length;
     }
 
     public void SetCheckpoint(int newCheckpoint)

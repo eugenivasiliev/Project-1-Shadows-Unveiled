@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/BUILD SCENES/Level - 2.unity
     guid: dd69d083931f1104e86dbb27229bb1fe
   - enabled: 1
+    path: Assets/Scenes/BUILD SCENES/Level - 3 Redesign.unity
+    guid: a6ded2980adb89f4d97d09b1d29dba8d
+  - enabled: 0
     path: Assets/Scenes/BUILD SCENES/Level - 3.unity
     guid: daded07c83f69924e98ee72a9ba8b72d
   - enabled: 1
